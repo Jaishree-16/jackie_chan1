@@ -1,0 +1,47 @@
+body
+{
+    background: url("./backgnd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#heading
+{
+    color:white;
+    font-style:unset;
+    background:black;
+    width:700px;
+    text-align:center;
+    margin:auto;
+
+}
+#content
+{
+    display:flex;
+    background:rgba(0,0,0, 0.3);
+    height:450px;
+    width:1220px;
+    margin:auto;
+    margin-top:50px;
+   
+    justify-content:space-around;
+  
+}
+img{
+    height:125px;
+    width: 150px;;
+    border: 3px solid white;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius:50% ;
+    margin-left:20px;
+    margin-top:10px;
+}
+#title
+{
+    color:white;
+    font-style:oblique;
+    display:flex;
+    width:1220px;
+    background:rgba(0,0,0, 0.4);
+    margin:auto;
+    justify-content:space-around;
+}
